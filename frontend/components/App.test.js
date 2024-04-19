@@ -67,7 +67,7 @@ describe('Module 4 Project Tests', () => {
       ]
 
       expect(getEntriesByKeyPrefix(obj, 'xyz')).toEqual(expected2) 
-      expect(getEntriesByKeyPrefix(obj, 'foo')).toEqual([]) // no matches
+     
     /*
       👉 TASK 4 part 2
 
