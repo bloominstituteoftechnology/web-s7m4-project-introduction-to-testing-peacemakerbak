@@ -108,6 +108,8 @@ export default function App({ lang = 'en' }) {
           {errors.favFood && <div className="validation">{errors.favFood}</div>}
         </div>
 
+    
+
         <div className="inputGroup">
           <label>
             <input id="agreement" type="checkbox" name="agreement" checked={values.agreement} onChange={onChange} />
